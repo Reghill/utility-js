@@ -1,5 +1,11 @@
+function sort(array) {
+    return array.sort();
+}
+
 function maximum(array){
-    return array.sort()[array.length - 1]
+    let lastIndex = array.length - 1;
+    let maxElement = sort(array)[lastIndex];
+    return maxElement
 }
 
 module.exports = maximum;
