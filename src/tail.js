@@ -1,5 +1,11 @@
+function removeFirstElementIn(array) {
+    let indexToBeSpliced = 0;
+    let numberOfElementsToBeRemoved = 1;
+    array.splice(indexToBeSpliced, numberOfElementsToBeRemoved)
+}
+
 function tail(array){
-    array.splice(0,1)
+    removeFirstElementIn(array);
     return array
 }
 
