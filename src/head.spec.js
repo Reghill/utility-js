@@ -14,5 +14,4 @@ describe('Head', () => {
         expect(head([])).toEqual(undefined);
     });
 
-
 })
