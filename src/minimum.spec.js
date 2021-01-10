@@ -1,6 +1,5 @@
 const minimum = require('./minimum');
 
-
 describe('Minimum', () => {
 
     it('Minimum of [1,2,3,4] is 1', () => {
